@@ -4,15 +4,14 @@
 
 Le but de ce test est de créer une application simple. Cette application doit nous permettre d'évaluer l'état de vos connaisances sur la plateforme iOS. Aucune limite de temps n'est imposé pour réaliser ce test (dans la limite du raisonable). Il n'y a donc aucune raison de se presser. Favorisez la qualité à la quantité.
 
-Vous devrez générer un nouveau projet à partir de XCode 9/10, utiliser la dernière version de swift (4.2) et cocoapods (>= 1.5) pour la gestion de vos dépendances. 
+Vous devrez générer un nouveau projet à partir de XCode 9/10 ou reprendre le projet existant (si il y en a un), utiliser la dernière version de swift (5.1) et cocoapods (>= 1.8) pour la gestion de vos dépendances. 
 
 Vous êtes libre d’utiliser les libraries externes de votre choix si nécessaire. À vous également de choisir l'architeture que vous pensez la plus adaptée. Attendez vous à être questionné sur ces choix.
 
 ## Données fournies
 
- - Une liste d'équipements sous forme de fichier xlsx;
- - Une liste de points de contrôles et de défauts associés à ces équipements aussi sous forme de xlsx;
- - Un dossier comprenant les photos des équipements et/ou des défauts.
+ - Une liste d'équipements;
+ - Une liste de points de contrôles;
 
 ## Consignes
 
@@ -38,13 +37,11 @@ Le but de cet écran est :
 
 1. Afficher la photo de l'équipement ;
 2. Afficher une section des infos de l'équipement (nom, domaine, etc...) ;
-3. Afficher une section des caractéristiques de l'équipement ;
-4. Afficher la liste des points de contrôle et défauts associés. Pour chaque cellule, afficher :
+3. Afficher la liste des points de contrôle et son défaut associé. Pour chaque cellule, afficher :
 	- Le point de contrôle ;
 	- Le défaut ;
 	- La préconisation ;
 	- La photo si elle existe.
-
 
 ## Contraintes
 

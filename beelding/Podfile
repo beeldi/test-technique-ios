@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+target 'beelding' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for beelding
+  
+  pod 'Firebase', '~> 6.9.0'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+
+  pod 'Kingfisher'
+  
+  target 'beeldingTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'beeldingUITests' do
+    # Pods for testing
+  end
+
+end

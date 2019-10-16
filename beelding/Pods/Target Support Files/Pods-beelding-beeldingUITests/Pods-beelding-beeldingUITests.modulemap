@@ -1,0 +1,6 @@
+framework module Pods_beelding_beeldingUITests {
+  umbrella header "Pods-beelding-beeldingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
